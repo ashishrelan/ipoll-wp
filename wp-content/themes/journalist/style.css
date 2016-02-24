@@ -1,0 +1,390 @@
+body {
+	color: #666666;
+	font-family: OpenSans, sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #0099C2;
+	text-decoration: none;
+}
+a:hover {
+	color: #972263;
+}
+.clear {
+	clear: both;
+}
+.commentbox {
+	float:right;
+	background-image:url(https://www.ipoll.com/blog/wp-content/uploads/2013/10/commentbox.png);
+	width:57px;
+	height:63px;
+	margin:20px 0 0 20px;
+	text-align:center;
+}
+.commentbox a {
+	font-size:16px;
+	color:#FFF !important;
+	text-align:center;
+	padding:15px 0;
+}
+#content {
+	background-color: #FFFFFF;
+	border: 1px solid #D1CFCF;
+	border-radius: 8px 8px 8px 8px;
+	-moz-box-shadow: 0 0 8px #888;
+	-webkit-box-shadow: 0 0 8px #888;
+	box-shadow: 0 0 8px #888;
+	float: left;
+	width: 660px;
+	padding: 20px;
+}
+#container {
+	margin: 0 auto 40px auto;
+	position: relative;
+	width: 980px;
+}
+#container h1 {
+	float: left;
+	height: 120px;
+	margin: 0 auto;
+	padding: 0;
+}
+#container h1 a {
+	background-image: url("//usampplsites.s3.amazonaws.com/img/ipollBlog/iPollBlog_logo.png");
+	background-position: left 5px;
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 0;
+	height: 110px;
+	overflow: hidden;
+	text-indent: -9000px;
+	width: 300px;
+}
+#content h2, #content h2 a {
+	color: #0099C2;
+	font-family: 'Comfortaa', cursive;
+	font-size: 42px;
+	font-weight: normal;
+	line-height: 42px;
+	text-decoration: none;
+	text-transform: none;
+}
+#content h2 {
+	color: #0099C2;
+	display: block;
+	font-size: 42px;
+	font-weight: normal;
+	line-height: 40px;
+	margin: 0;
+	padding: 20px;
+	width: auto;
+}
+#content h3 {
+	color: #526470;
+	display: block;
+	font-size: 20px;
+	font-family: Comfortaa, serif;
+	line-height: 20px;
+	margin: 0;
+	padding: 20px 0 10px 0;
+	width: auto;
+}
+#content h2 a:hover {
+	color: #972263;
+	text-decoration: none;
+}
+h3.reply {
+	color: #788187;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 0 10px;
+}
+.wp-caption {
+	background-color: #F2F1F1;
+	border: medium none;
+	border-radius: 8px 8px 8px 8px;
+	margin: 2px;
+	padding-top: 4px;
+	text-align: center;
+}
+.alignright {
+	float: right;
+	margin: 2px 0 2px 2px;
+}
+.alignleft {
+	float: left;
+	margin: 2px 2px 2px 0;
+}
+.comments {
+	margin: 0;
+	padding: 5px 0;
+}
+.comments a {
+	color: #0099C2;
+	padding: 0 7px 0 10px;
+	text-decoration: none;
+}
+.comments a:hover {
+	color: #972263;
+}
+.main {
+	margin-top: 0;
+	padding: 10px;
+}
+#sidebar {
+	background-color: #FFFFFF;
+	border: 1px solid #D1CFCF;
+	border-radius: 8px 8px 8px 8px;
+	-moz-box-shadow: 0 0 8px #888;
+	-webkit-box-shadow: 0 0 8px #888;
+	box-shadow: 0 0 8px #888;
+	float: right;
+	font-size: 12px;
+	margin: 0 0 20px;
+	padding: 20px;
+	width: 190px;
+}
+#sidebar h3 {
+	color: #0099C2;
+	font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 20px 0 5px;
+}
+#sidebar ul {
+	padding: 0 0 4px 15px;
+}
+#sidebar ul li {
+}
+#searchform #searchsubmit {
+	background-color: transparent;
+	background-image: url("//usampplsites.s3.amazonaws.com/img/ipollBlog/button.png");
+	background-position: left top;
+	background-repeat: no-repeat;
+	border: medium none;
+	color: #666;
+	cursor: pointer;
+	height: 31px;
+	width: 82px;
+	margin: 10px 0;
+	text-shadow: 0.05em 0.05em #FFFFFF;
+	font-size: 14px;
+	font-family: Comfortaa, sans-serif;
+}
+#searchform #searchsubmit:hover {
+	background-position: left bottom;
+	color: #FFFFFF;
+	text-shadow: 0.05em 0.05em #550330;
+}
+#searchform #s {
+	background: none repeat scroll 0 0 #F6F6F6;
+	border: 1px solid #AAAAAA;
+	color: #222222;
+	font-size: 11px;
+	height: auto;
+	margin: 2px 0;
+	padding: 5px;
+	width: 180px;
+}
+#searchform #s:focus {
+	border: 2px solid #92C51E;
+	padding: 4px;
+}
+.meta {
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	clear: both;
+	color: #333333;
+	font-size: 11px;
+	line-height: 15px;
+	margin: 0 0 40px;
+	padding: 10px 0;
+}
+.meta p {
+	margin: 5px 0 0;
+}
+.meta p .edit {
+	margin-left: 10px;
+}
+.meta .signature {
+	float: left;
+	margin: 0 0 0 20px;
+	width: 300px;
+}
+.meta .tags {
+	float: right;
+	margin: 0 20px 0 0;
+	width: 150px;
+}
+#footer {
+	width:980px;
+	margin:40px auto;
+}
+.navigation {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-bottom: 1px solid #CDCDBA;
+	border-top: 1px solid #CDCDBA;
+	font-size: 11px;
+	margin: 0 0 20px;
+	padding: 5px 10px;
+}
+#respond #comment-form-identity {
+	background: none repeat scroll 0 0 #E8E8DE;
+	border-top: 1px solid #CDCDBA;
+}
+#respond .comment-form-service {
+	background: none repeat scroll 0 0 #F4F4EC;
+	border-bottom: 1px solid #CDCDBA;
+}
+#comment {
+	border: 1px solid #CDCDBA;
+	color: #666666;
+	font-family: Arial;
+	padding: 10px;
+	width: 630px;
+}
+#comment:focus {
+	border: 2px solid #92C51E;
+	padding: 9px;
+}
+.postinput .submit {
+	background-color: #FFFFFF;
+	background-image: url("http://unitedsample.s3.amazonaws.com/images/surveyhead/subBut2.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	border: medium none;
+	color: #005FBB;
+	cursor: pointer;
+	font-weight: bold;
+	height: 42px;
+	margin: 10px 0;
+	padding: 0 5px 7px 0;
+	text-transform: uppercase;
+	width: 140px;
+}
+.postinput .submit:hover {
+	background-position: center bottom;
+	color: #FFFFFF;
+}
+/* For image replacement */
+.ir {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 0 none;
+	direction: ltr;
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	text-indent: -999em;
+}
+.adContainer {
+	display: none;
+	float: right;
+	margin: 20px 0;
+	width: 100%;
+}
+.mainAd {
+	background-position: -1px -1px;
+	background-repeat: no-repeat;
+	border: 1px solid #7C8D98;
+	height: 88px;
+	margin: 0 auto;
+	width: 726px;
+}
+.imgA {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollBannerLong1.gif");
+}
+.imgB {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollBannerLong2.gif");
+}
+.imgC {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollBannerLong3.gif");
+}
+.imgD {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollBannerLong4.gif");
+}
+.imgE {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollBannerLong5.gif");
+}
+.imgF {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollBannerLong6.gif");
+}
+.imgG {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollBannerLong7.gif");
+}
+.imgH {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollBannerLong8.gif");
+}
+.mainAd a.btnIpoll {
+	clear: right;
+	display: block;
+	float: left;
+	height: 88px;
+	width: 620px;
+}
+.mainAd a.btnApple, .mainAd a.btnGoogle {
+	background-image: url("https://usampplsites.s3.amazonaws.com/custom/surveyhead/img/ipollDownloadBtnsLong.png");
+	background-repeat: no-repeat;
+	clear: right;
+	display: block;
+	float: right;
+	height: 39px;
+	margin-right: 5px;
+	width: 97px;
+}
+.btnApple {
+	background-position: left top;
+	margin-top: 5px;
+}
+.btnApple:hover {
+	background-position: left bottom;
+}
+.btnGoogle {
+	background-position: right top;
+	margin-top: 2px;
+}
+.btnGoogle:hover {
+	background-position: right bottom;
+}
+#shareLogos {
+	width: 240px;
+	margin: -20px auto 15px auto;
+}
+#shareLogos p {
+	text-align: center;
+	padding-right: 50px;
+}
+#shareLogos a {
+	padding: 10px;
+}
+/** navigation **/
+#navigation {
+	float: right;
+	width: 500px;
+	padding: 0;
+	margin: 0;
+}
+#navigation ul {
+	padding: 0;
+	margin: 0;
+}
+#navigation li {
+	list-style: none;
+	float: left;
+}
+#navigation li a {
+	color: #676767;
+	display: block;
+	padding: 40px 27px 34px;
+	margin: 0;
+}
+#navigation li a:hover {
+	background-color: #A7B40F;
+	color: #FFF;
+}
